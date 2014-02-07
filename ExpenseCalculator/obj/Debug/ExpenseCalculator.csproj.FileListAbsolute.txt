@@ -1,0 +1,14 @@
+C:\Documents and Settings\Shad\My Documents\Visual Studio 2008\Projects\ExpenseCalculator\ExpenseCalculator\bin\ExpenseCalculator.dll
+C:\Documents and Settings\Shad\My Documents\Visual Studio 2008\Projects\ExpenseCalculator\ExpenseCalculator\bin\ExpenseCalculator.pdb
+C:\Documents and Settings\Shad\My Documents\Visual Studio 2008\Projects\ExpenseCalculator\ExpenseCalculator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Shad\My Documents\Visual Studio 2008\Projects\ExpenseCalculator\ExpenseCalculator\obj\Debug\ExpenseCalculator.dll
+C:\Documents and Settings\Shad\My Documents\Visual Studio 2008\Projects\ExpenseCalculator\ExpenseCalculator\obj\Debug\ExpenseCalculator.pdb
+C:\Documents and Settings\Shad\Desktop\ExpenseCalculator\ExpenseCalculator\bin\ExpenseCalculator.dll
+C:\Documents and Settings\Shad\Desktop\ExpenseCalculator\ExpenseCalculator\bin\ExpenseCalculator.pdb
+C:\Documents and Settings\Shad\Desktop\ExpenseCalculator\ExpenseCalculator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Shad\Desktop\ExpenseCalculator\ExpenseCalculator\obj\Debug\ExpenseCalculator.dll
+C:\Documents and Settings\Shad\Desktop\ExpenseCalculator\ExpenseCalculator\obj\Debug\ExpenseCalculator.pdb
+G:\Users\shad\Documents\ExpenseCalculator\ExpenseCalculator\bin\ExpenseCalculator.dll
+G:\Users\shad\Documents\ExpenseCalculator\ExpenseCalculator\bin\ExpenseCalculator.pdb
+G:\Users\shad\Documents\ExpenseCalculator\ExpenseCalculator\obj\Debug\ExpenseCalculator.dll
+G:\Users\shad\Documents\ExpenseCalculator\ExpenseCalculator\obj\Debug\ExpenseCalculator.pdb

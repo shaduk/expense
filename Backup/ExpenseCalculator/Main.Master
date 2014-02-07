@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ExpenseCalculator.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 107%;
+            height: 490px;
+        }
+        .style2
+        {
+            height: 372px;
+        }
+        .style3
+        {
+        }
+        .style4
+        {
+            height: 372px;
+            width: 151px;
+        }
+        .style5
+        {
+            height: 106px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        
+            <table class="style1">
+                <tr>
+                    <td class="style5" colspan="2" style="background-color: #FFFFCC">
+                        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" 
+                            ForeColor="#FF3300" Text="Welcome to Expense Calculator" 
+                            Font-Size="XX-Large"></asp:Label>
+                    &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style4" align="left" style="background-color: #FFFFCC">
+                        <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" 
+                            DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Medium" 
+                            ForeColor="#990000" StaticSubMenuIndent="10px" Font-Bold="True" 
+                            Font-Overline="False" Height="135px" onmenuitemclick="Menu1_MenuItemClick">
+                            <StaticSelectedStyle BackColor="#FFCC66" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                            <DynamicMenuStyle BackColor="#FFFBD6" />
+                            <DynamicSelectedStyle BackColor="#FFCC66" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                            <Items>
+                                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Add.aspx" Text="Add Record" Value="Add Record">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/View.aspx" Text="View Recent Expense" 
+                                    Value="View Monthly Expense"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/AmountDue.aspx" Text="Amount Due" 
+                                    Value="Amount Due"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ExpenseHistory.aspx" Text="Expense History" 
+                                    Value="Expense History"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                    <td class="style2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></td>
+                </tr>
+                <tr>
+                    <td class="style3" colspan="2" style="background-color: #CCFFCC">
+                        &nbsp;</td>
+                </tr>
+            </table>
+        
+        
+    </div>
+    </form>
+</body>
+</html>

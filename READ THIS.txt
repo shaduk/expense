@@ -1,0 +1,12 @@
+Hello, Below are the steps to load this project
+
+1) In order to view this project you need to have Visual studio 2010 installed in your PC
+
+2) First load the database in SQL server management studio by creating a database called "practice". Delete any already existing database with name "practice"
+
+3) Right click on database and restore the backup into the practice database
+
+4) Replace the the name of the server in ASP.net code Data Source=SHAD-PC to the respective server.
+
+5) Your project is ready
+
